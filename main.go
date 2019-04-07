@@ -63,7 +63,6 @@ func (q *query) getPoints() []gin.H {
 	// 			"tip":      point.name,
 	// 		})
 	// 	}
-	// }
 	cmap := make(map[string]*cellPoint)
 	var wg sync.WaitGroup
 	var m sync.Mutex
